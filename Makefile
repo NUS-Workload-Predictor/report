@@ -1,7 +1,7 @@
 FILE=socreport
 BIBFILE=socreport
 
-$(FILE).pdf: $(FILE).tex socreport.cls $(FILE).aux $(FILE).toc $(BIBFILE).bbl 
+$(FILE).pdf: $(FILE).tex socreport.cls $(FILE).aux $(FILE).toc $(BIBFILE).bbl
 	pdflatex $(FILE).tex
 	pdflatex $(FILE).tex
 	dvips $(FILE).dvi -o $(FILE).ps

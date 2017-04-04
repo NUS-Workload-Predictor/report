@@ -1,0 +1,78 @@
+\contentsline {chapter}{Title}{i}
+\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{Acknowledgement}{iii}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {subsection}{\numberline {1.1.1}Workload is important for both teaching staff and students}{1}
+\contentsline {subsection}{\numberline {1.1.2}Workload is hard to measure}{1}
+\contentsline {subsection}{\numberline {1.1.3}No such tool in NUS for undergraduate}{2}
+\contentsline {subsection}{\numberline {1.1.4}Machine learning in predicting education workload}{2}
+\contentsline {section}{\numberline {1.2}Motivation}{3}
+\contentsline {section}{\numberline {1.3}Objective}{3}
+\contentsline {subsection}{\numberline {1.3.1}Help student understand their workload by prediction}{3}
+\contentsline {subsection}{\numberline {1.3.2}More accurate measure of workload if more info provided}{3}
+\contentsline {subsection}{\numberline {1.3.3}Use machine learning to improve prediction accuracy}{3}
+\contentsline {section}{\numberline {1.4}Scope}{4}
+\contentsline {subsection}{\numberline {1.4.1}Prediction of workload}{4}
+\contentsline {subsection}{\numberline {1.4.2}Visualisation of workload}{4}
+\contentsline {subsection}{\numberline {1.4.3}Accessibility of tool}{4}
+\contentsline {subsection}{\numberline {1.4.4}Model refinement}{4}
+\contentsline {subsection}{\numberline {1.4.5}Model variety}{4}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {2.1}Workload Understanding}{5}
+\contentsline {subsection}{\numberline {2.1.1}General definition of workload}{5}
+\contentsline {subsection}{\numberline {2.1.2}Objective workload}{5}
+\contentsline {subsection}{\numberline {2.1.3}Subjective workload}{6}
+\contentsline {section}{\numberline {2.2}Workload Assessment}{6}
+\contentsline {subsection}{\numberline {2.2.1}General approaches}{6}
+\contentsline {subsection}{\numberline {2.2.2}Existing workload model}{7}
+\contentsline {section}{\numberline {2.3}Existing Workload Tool}{8}
+\contentsline {subsection}{\numberline {2.3.1}An existing workload tool from Rice University}{8}
+\contentsline {subsection}{\numberline {2.3.2}An existing workload tool from Massey University}{8}
+\contentsline {subsection}{\numberline {2.3.3}An existing workload tool from The Open University}{10}
+\contentsline {chapter}{\numberline {3}NUSWorks Design}{12}
+\contentsline {section}{\numberline {3.1}Introduction}{12}
+\contentsline {subsection}{\numberline {3.1.1}Overview}{12}
+\contentsline {subsection}{\numberline {3.1.2}Flow}{12}
+\contentsline {subsection}{\numberline {3.1.3}Technology stack}{13}
+\contentsline {section}{\numberline {3.2}Model Design}{14}
+\contentsline {subsection}{\numberline {3.2.1}Overview}{14}
+\contentsline {subsection}{\numberline {3.2.2}Training system}{14}
+\contentsline {subsubsection}{Linear regression algorithm}{14}
+\contentsline {subsubsection}{Feedback system}{15}
+\contentsline {subsubsection}{Training data set}{16}
+\contentsline {subsection}{\numberline {3.2.3}Attributes for models}{17}
+\contentsline {subsubsection}{Weekly working time specific attributes}{17}
+\contentsline {subsubsection}{Module difficulty specific attributes}{20}
+\contentsline {subsubsection}{Other attributes of student}{20}
+\contentsline {subsection}{\numberline {3.2.4}Weekly working time model for each of the assessment component}{22}
+\contentsline {subsubsection}{Default model of weekly working time}{22}
+\contentsline {subsubsection}{Simple model of weekly working time}{23}
+\contentsline {subsubsection}{Complex model of weekly working time}{24}
+\contentsline {subsection}{\numberline {3.2.5}Module difficulty model}{25}
+\contentsline {subsubsection}{Default model of module difficulty}{25}
+\contentsline {subsubsection}{Simple model of module difficulty}{25}
+\contentsline {subsubsection}{Complex model of module difficulty}{25}
+\contentsline {section}{\numberline {3.3}Features}{26}
+\contentsline {subsection}{\numberline {3.3.1}Predict weekly working time based on information provided}{26}
+\contentsline {subsection}{\numberline {3.3.2}Predict module difficulty based on information provided}{26}
+\contentsline {subsection}{\numberline {3.3.3}Different ways to visualise prediction results}{27}
+\contentsline {subsection}{\numberline {3.3.4}Feedback system of prediction}{27}
+\contentsline {section}{\numberline {3.4}Requirements}{27}
+\contentsline {subsection}{\numberline {3.4.1}Functional requirements}{27}
+\contentsline {subsection}{\numberline {3.4.2}Non-functional requirements}{28}
+\contentsline {section}{\numberline {3.5}Design Decisions}{29}
+\contentsline {subsection}{\numberline {3.5.1}Architecture}{29}
+\contentsline {subsubsection}{NUSWorks Client}{29}
+\contentsline {subsubsection}{NUSWorks Server}{30}
+\contentsline {subsection}{\numberline {3.5.2}UI/UX Design}{31}
+\contentsline {subsection}{\numberline {3.5.3}Testing}{34}
+\contentsline {chapter}{\numberline {4}Discussion and Recommendation}{36}
+\contentsline {section}{\numberline {4.1}Machine Learning Model}{36}
+\contentsline {section}{\numberline {4.2}Training Data}{37}
+\contentsline {section}{\numberline {4.3}Attributes of Models}{37}
+\contentsline {section}{\numberline {4.4}Indicators of Workload}{38}
+\contentsline {chapter}{\numberline {5}Conclusion}{39}
+\contentsline {chapter}{References}{40}
+\contentsline {chapter}{\numberline {A}Screenshots}{A-1}
+\contentsline {chapter}{\numberline {B}External Libraries}{B-1}
