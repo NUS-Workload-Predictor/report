@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  4 APR 2017 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  5 APR 2017 12:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -217,10 +217,10 @@ Chapter 2.
 ] [6]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 109.
+               Default added (so using `tbp') on input line 108.
 
 
-Overfull \hbox (25.19997pt too wide) in paragraph at lines 111--124
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 110--123
  [][] 
  []
 
@@ -228,34 +228,34 @@ Overfull \hbox (25.19997pt too wide) in paragraph at lines 111--124
 File: img/rice-university.png Graphic file (type png)
 
 <use img/rice-university.png>
-Package pdftex.def Info: img/rice-university.png used on input line 139.
+Package pdftex.def Info: img/rice-university.png used on input line 138.
 (pdftex.def)             Requested size: 452.9679pt x 285.20055pt.
-
-<img/massey-1.png, id=50, 1148.29pt x 681.54625pt>
+ [8]
+<img/massey-1.png, id=53, 1148.29pt x 681.54625pt>
 File: img/massey-1.png Graphic file (type png)
  <use img/massey-1.png>
-Package pdftex.def Info: img/massey-1.png used on input line 148.
+Package pdftex.def Info: img/massey-1.png used on input line 147.
 (pdftex.def)             Requested size: 452.9679pt x 268.84903pt.
 
-<img/massey-2.png, id=51, 1146.2825pt x 662.475pt>
+<img/massey-2.png, id=54, 1146.2825pt x 662.475pt>
 File: img/massey-2.png Graphic file (type png)
  <use img/massey-2.png>
-Package pdftex.def Info: img/massey-2.png used on input line 154.
+Package pdftex.def Info: img/massey-2.png used on input line 153.
 (pdftex.def)             Requested size: 452.9679pt x 261.791pt.
 
-[8] [9 <./img/rice-university.png> <./img/massey-1.png>]
-<img/open-1.png, id=60, 621.32124pt x 196.735pt>
+<img/open-1.png, id=55, 621.32124pt x 196.735pt>
 File: img/open-1.png Graphic file (type png)
  <use img/open-1.png>
-Package pdftex.def Info: img/open-1.png used on input line 163.
+Package pdftex.def Info: img/open-1.png used on input line 162.
 (pdftex.def)             Requested size: 452.9679pt x 143.42921pt.
 
-<img/open-2.png, id=61, 770.88pt x 461.725pt>
+<img/open-2.png, id=56, 770.88pt x 461.725pt>
 File: img/open-2.png Graphic file (type png)
  <use img/open-2.png>
-Package pdftex.def Info: img/open-2.png used on input line 169.
+Package pdftex.def Info: img/open-2.png used on input line 168.
 (pdftex.def)             Requested size: 452.9679pt x 271.30927pt.
- [10 <./img/massey-2.png>] [11 <./img/open-1.png> <./img/open-2.png>]
+ [9 <./img/rice-university.png>] [10 <./img/massey-1.png> <./img/massey-2.png>]
+ [11 <./img/open-1.png> <./img/open-2.png>]
 Chapter 3.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -263,30 +263,30 @@ Missing character: There is no ô in font cmr10!
 <img/flow.png, id=71, 974.64125pt x 625.33624pt>
 File: img/flow.png Graphic file (type png)
  <use img/flow.png>
-Package pdftex.def Info: img/flow.png used on input line 183.
+Package pdftex.def Info: img/flow.png used on input line 182.
 (pdftex.def)             Requested size: 452.9679pt x 290.62567pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 189.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 188.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
  [12
 
 ] [13 <./img/flow.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 202.
+               Default added (so using `tbp') on input line 201.
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 209--210
+Underfull \hbox (badness 2126) in paragraph at lines 208--209
 []|\OT1/cmr/m/n/10.95 Flask, Mari-aDB, scikit-learn, Flask-SQLAlchemy, Flask-
  []
 
 
-Overfull \hbox (25.19997pt too wide) in paragraph at lines 204--212
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 203--211
  [][] 
  []
 
@@ -294,7 +294,7 @@ Overfull \hbox (25.19997pt too wide) in paragraph at lines 204--212
 File: img/training-process.png Graphic file (type png)
 
 <use img/training-process.png>
-Package pdftex.def Info: img/training-process.png used on input line 234.
+Package pdftex.def Info: img/training-process.png used on input line 233.
 (pdftex.def)             Requested size: 452.9679pt x 255.35802pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -302,120 +302,120 @@ Missing character: There is no ô in font cmr10!
  [16 <./img/training-process.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 248.
+               Default added (so using `tbp') on input line 247.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 271.
+               Default added (so using `tbp') on input line 270.
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 288--288
+Underfull \hbox (badness 1117) in paragraph at lines 287--287
 []|\OT1/cmr/m/n/10.95 The time du-ra-tion of the
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 288--289
+Underfull \hbox (badness 1152) in paragraph at lines 287--288
 []|\OT1/cmr/m/n/10.95 Longer du-ra-tion could in-di-cate stu-dent
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 296.
+               Default added (so using `tbp') on input line 295.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []|\OT1/cmr/m/n/10.95 The per-cent-age of the
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 313--313
+Underfull \hbox (badness 1117) in paragraph at lines 312--312
 []|\OT1/cmr/m/n/10.95 The time du-ra-tion of the
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 313--314
+Underfull \hbox (badness 1152) in paragraph at lines 312--313
 []|\OT1/cmr/m/n/10.95 Longer du-ra-tion could in-di-cate stu-dent
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 321.
+               Default added (so using `tbp') on input line 320.
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 328--328
+Underfull \hbox (badness 5985) in paragraph at lines 327--327
 []|\OT1/cmr/m/n/10.95 The amount of read-ings
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 336.
+               Default added (so using `tbp') on input line 335.
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 347--348
+Underfull \hbox (badness 1152) in paragraph at lines 346--347
 []|\OT1/cmr/m/n/10.95 Longer du-ra-tion could in-di-cate stu-dent
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 355.
+               Default added (so using `tbp') on input line 354.
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 366--366
+Underfull \hbox (badness 1117) in paragraph at lines 365--365
 []|\OT1/cmr/m/n/10.95 The time du-ra-tion of the
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 366--367
+Underfull \hbox (badness 1152) in paragraph at lines 365--366
 []|\OT1/cmr/m/n/10.95 Longer du-ra-tion could in-di-cate stu-dent
  []
 
 [17] [18] [19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 375.
+               Default added (so using `tbp') on input line 374.
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 384--385
+Underfull \hbox (badness 3623) in paragraph at lines 383--384
 []|\OT1/cmr/m/n/10.95 More mod-u-lar cred-its should in-di-cate
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 392--392
+Underfull \hbox (badness 2846) in paragraph at lines 391--391
 []|\OT1/cmr/m/n/10.95 The num-ber of hours of
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 394--394
+Underfull \hbox (badness 2846) in paragraph at lines 393--393
 []|\OT1/cmr/m/n/10.95 The num-ber of hours of
  []
 
 [20] [21]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 404.
+               Default added (so using `tbp') on input line 403.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\OT1/cmr/m/n/10.95 The cu-mu-la-tive av-er-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []|\OT1/cmr/m/n/10.95 Experienced
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 413--413
+Underfull \hbox (badness 5787) in paragraph at lines 412--412
 []|\OT1/cmr/m/n/10.95 The amount of mod-u-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 \OT1/cmr/m/n/10.95 cred-its the stu-dent has
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 []|\OT1/cmr/m/n/10.95 Experienced
  []
 
@@ -469,14 +469,14 @@ Missing character: There is no ù in font cmr10!
 <img/redux.png, id=132, 810.02625pt x 271.0125pt>
 File: img/redux.png Graphic file (type png)
  <use img/redux.png>
-Package pdftex.def Info: img/redux.png used on input line 538.
+Package pdftex.def Info: img/redux.png used on input line 537.
 (pdftex.def)             Requested size: 452.9679pt x 151.55505pt.
  [29 <./img/redux.png>] <img/nusworks-server.png, id=137, 960.58875pt x 634.37p
 t>
 File: img/nusworks-server.png Graphic file (type png)
 
 <use img/nusworks-server.png>
-Package pdftex.def Info: img/nusworks-server.png used on input line 560.
+Package pdftex.def Info: img/nusworks-server.png used on input line 559.
 (pdftex.def)             Requested size: 452.9679pt x 299.14127pt.
  [30] [31 <./img/nusworks-server.png>]
 Missing character: There is no ‚ in font cmr10!
@@ -554,128 +554,134 @@ Chapter 5.
 (./socreport.bbl [39
 
 ]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [40
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [40
-
-]
+]) [41]
 Appendix A.
-<img/1.png, id=174, 643.40375pt x 349.80687pt>
+<img/1.png, id=177, 643.40375pt x 349.80687pt>
 File: img/1.png Graphic file (type png)
  <use img/1.png>
 Package pdftex.def Info: img/1.png used on input line 632.
 (pdftex.def)             Requested size: 452.9679pt x 246.2776pt.
 
-<img/2.png, id=175, 1925.1925pt x 982.67125pt>
+<img/2.png, id=178, 1925.1925pt x 982.67125pt>
 File: img/2.png Graphic file (type png)
  <use img/2.png>
 Package pdftex.def Info: img/2.png used on input line 638.
 (pdftex.def)             Requested size: 452.9679pt x 231.19768pt.
 
-<img/3.png, id=176, 1046.91125pt x 443.6575pt>
+<img/3.png, id=179, 1046.91125pt x 443.6575pt>
 File: img/3.png Graphic file (type png)
  <use img/3.png>
 Package pdftex.def Info: img/3.png used on input line 644.
 (pdftex.def)             Requested size: 452.9679pt x 191.95369pt.
 
-<img/4.png, id=177, 934.49126pt x 545.03625pt>
+<img/4.png, id=180, 934.49126pt x 545.03625pt>
 File: img/4.png Graphic file (type png)
  <use img/4.png>
 Package pdftex.def Info: img/4.png used on input line 650.
 (pdftex.def)             Requested size: 452.9679pt x 264.19257pt.
 
-<img/5.png, id=178, 1622.06pt x 548.0475pt>
+<img/5.png, id=181, 1622.06pt x 548.0475pt>
 File: img/5.png Graphic file (type png)
  <use img/5.png>
 Package pdftex.def Info: img/5.png used on input line 656.
 (pdftex.def)             Requested size: 452.9679pt x 153.04248pt.
 
-<img/6.png, id=179, 1927.2pt x 278.03876pt>
+<img/6.png, id=182, 1927.2pt x 278.03876pt>
 File: img/6.png Graphic file (type png)
  <use img/6.png>
 Package pdftex.def Info: img/6.png used on input line 662.
 (pdftex.def)             Requested size: 452.9679pt x 65.3476pt.
 
-<img/7.png, id=180, 253.94875pt x 250.9375pt>
+<img/7.png, id=183, 253.94875pt x 250.9375pt>
 File: img/7.png Graphic file (type png)
  <use img/7.png>
 Package pdftex.def Info: img/7.png used on input line 668.
 (pdftex.def)             Requested size: 452.9679pt x 447.61308pt.
 
-<img/8.png, id=181, 874.26625pt x 594.22pt>
+<img/8.png, id=184, 874.26625pt x 594.22pt>
 File: img/8.png Graphic file (type png)
  <use img/8.png>
 Package pdftex.def Info: img/8.png used on input line 674.
 (pdftex.def)             Requested size: 452.9679pt x 307.87186pt.
 
-<img/9.png, id=182, 790.955pt x 878.28125pt>
+<img/9.png, id=185, 790.955pt x 878.28125pt>
 File: img/9.png Graphic file (type png)
  <use img/9.png>
 Package pdftex.def Info: img/9.png used on input line 680.
 (pdftex.def)             Requested size: 452.9679pt x 502.98418pt.
 
-<img/10.png, id=183, 1926.19624pt x 615.29875pt>
+<img/10.png, id=186, 1926.19624pt x 615.29875pt>
 File: img/10.png Graphic file (type png)
  <use img/10.png>
 Package pdftex.def Info: img/10.png used on input line 686.
 (pdftex.def)             Requested size: 452.9679pt x 144.6891pt.
 
-<img/11.png, id=184, 468.75125pt x 209.78375pt>
+<img/11.png, id=187, 468.75125pt x 209.78375pt>
 File: img/11.png Graphic file (type png)
  <use img/11.png>
 Package pdftex.def Info: img/11.png used on input line 692.
 (pdftex.def)             Requested size: 452.9679pt x 202.71852pt.
 
-<img/12.png, id=185, 1920.17375pt x 544.0325pt>
+<img/12.png, id=188, 1920.17375pt x 544.0325pt>
 File: img/12.png Graphic file (type png)
  <use img/12.png>
 Package pdftex.def Info: img/12.png used on input line 698.
 (pdftex.def)             Requested size: 452.9679pt x 128.33742pt.
 
-<img/13.png, id=186, 469.755pt x 253.94875pt>
+<img/13.png, id=189, 469.755pt x 253.94875pt>
 File: img/13.png Graphic file (type png)
  <use img/13.png>
 Package pdftex.def Info: img/13.png used on input line 704.
 (pdftex.def)             Requested size: 452.9679pt x 244.873pt.
 
-<img/14.png, id=187, 1924.18875pt x 875.27pt>
+<img/14.png, id=190, 1924.18875pt x 875.27pt>
 File: img/14.png Graphic file (type png)
  <use img/14.png>
 Package pdftex.def Info: img/14.png used on input line 710.
 (pdftex.def)             Requested size: 452.9679pt x 206.03572pt.
 
-<img/15.png, id=188, 449.68pt x 531.9875pt>
+<img/15.png, id=191, 449.68pt x 531.9875pt>
 File: img/15.png Graphic file (type png)
  <use img/15.png>
 Package pdftex.def Info: img/15.png used on input line 716.
 (pdftex.def)             Requested size: 452.9679pt x 535.89882pt.
 
-<img/16.png, id=189, 1927.2pt x 876.27374pt>
+<img/16.png, id=192, 1927.2pt x 876.27374pt>
 File: img/16.png Graphic file (type png)
  <use img/16.png>
 Package pdftex.def Info: img/16.png used on input line 722.
 (pdftex.def)             Requested size: 452.9679pt x 205.9511pt.
 
-<img/17.png, id=190, 467.7475pt x 533.995pt>
+<img/17.png, id=193, 467.7475pt x 533.995pt>
 File: img/17.png Graphic file (type png)
  <use img/17.png>
 Package pdftex.def Info: img/17.png used on input line 728.
 (pdftex.def)             Requested size: 452.9679pt x 517.15158pt.
 
-<img/18.png, id=191, 1925.1925pt x 868.24374pt>
+<img/18.png, id=194, 1925.1925pt x 868.24374pt>
 File: img/18.png Graphic file (type png)
  <use img/18.png>
 Package pdftex.def Info: img/18.png used on input line 734.
 (pdftex.def)             Requested size: 452.9679pt x 204.27577pt.
 
-<img/19.png, id=192, 1927.2pt x 887.315pt>
+<img/19.png, id=195, 1927.2pt x 887.315pt>
 File: img/19.png Graphic file (type png)
  <use img/19.png>
 Package pdftex.def Info: img/19.png used on input line 740.
 (pdftex.def)             Requested size: 452.9679pt x 208.54613pt.
 
-<img/20.png, id=193, 1927.2pt x 383.4325pt>
+<img/20.png, id=196, 1927.2pt x 383.4325pt>
 File: img/20.png Graphic file (type png)
  <use img/20.png>
 Package pdftex.def Info: img/20.png used on input line 746.
@@ -692,13 +698,13 @@ Appendix B.
 
 ] [2] (./socreport.aux) ) 
 Here is how much of TeX's memory you used:
- 2438 strings out of 493014
- 33293 string characters out of 6133351
- 113228 words of memory out of 5000000
- 5928 multiletter control sequences out of 15000+600000
+ 2459 strings out of 493014
+ 33666 string characters out of 6133351
+ 114568 words of memory out of 5000000
+ 5949 multiletter control sequences out of 15000+600000
  9814 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,35p,976b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,35p,992b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
@@ -707,10 +713,10 @@ amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb>
-Output written on socreport.pdf (61 pages, 1583029 bytes).
+Output written on socreport.pdf (62 pages, 1593016 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 292 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,7 +16,7 @@
 	\item Report: 1 Volume}
 \maketitle
 \begin{abstract}
-Student workload is a important factor that may decide whether a student could have a good balance between life and study. The aim of this project is to model the student workload for National University of Singapore (NUS) undergraduates. Meanwhile, develop a student workload prediction tool for NUS undergraduates using machine learning algorithm based on these models. As for doing this, I will review the research papers related to student workload in higher education, build the student workload models to quantify workload of NUS undergraduates, and develop the workload prediction tool application based on the workload models. Also, this paper will discuss the architecture and technologies of the application.
+Student workload is an important factor that may decide whether a student could have a good balance between life and study. The aim of this project is to model the student workload for National University of Singapore (NUS) undergraduates. Meanwhile, develop a student workload prediction tool for NUS undergraduates using machine learning algorithm based on these models. As for doing this, I will review the research papers related to student workload in higher education, build the student workload models to quantify workload of NUS undergraduates, and develop the workload prediction tool application (named NUSWorks) based on the workload models. Also, this paper will discuss the architecture and technologies of NUSWorks.
 
 \begin{descriptors}
 	\item D.2.2 Design Tools and Techniques
@@ -32,7 +32,7 @@ Student workload is a important factor that may decide whether a student could h
 \end{abstract}
 
 \begin{acknowledgement}
-First of all, I would like thank Dr. Bimlesh Wadhwa for her unconditional support and mentorship, and helping me review research papers and giving suggestions for report and prototype implementation. Also, I like to thank my teammate Tran Cong Thien for our good cooperation and helpful suggestions about this project. Last but not least, I would like to thank my family and my friends for their continuous and sincere support.
+First of all, I would like to thank Dr. Bimlesh Wadhwa for her unconditional support and mentorship, and helping me review research papers and giving suggestions for report and prototype implementation. Also, I like to thank my teammate Tran Cong Thien for our good cooperation and helpful suggestions about this project. Last but not least, I would like to thank my family and my friends for their continuous and sincere support.
 \end{acknowledgement}
 
 % \listoffigures
@@ -42,30 +42,30 @@ First of all, I would like thank Dr. Bimlesh Wadhwa for her unconditional suppor
 \chapter{Introduction}
 
 \section{Background}
-\subsection{Workload is important for both teaching staff and students}
+\subsection{Workload is important for both students and education institutes}
 Nowadays, student workload has become one of the important factors in the higher education, and it is also an important condition for student to have a good balance between study and life (Kember, 2004). In addition, one study from Kyle Bowyer shows that around one third of students from Organization for Economic Co-operation and Development (OECD) countries drop their studies before finishing, and student workload, as a study-related factor, plays an important role for causing the dropout (Bowyer, 2012). Thus, studying for student workload should be beneficial for both students to have an appropriate workload and higher education institutes to arrange reasonable workload for each course.
 
 \subsection{Workload is hard to measure}
-It may be difficult to measure the student workload as some number. Studies show that student workload is simply measured as number of studying hours per week (Kember, 2004), but some researchers have indicated that student workload is hard to estimate because student workload may not only related to worked time per week, but also be influenced by other factors like teaching method for each course and personal capability of each student (Ruiz-Gallardo, Castaño, Gómez- Alday \& Valdés, 2009). Meanwhile, student workload can be classified into two parts where one is objective workload that is measured by time, and the other is subjective workload which can be defined as the effect of factors related to student, such as effort and confusion (Kyndt, Berghmans, Dochy \& Bulckens, 2014). Therefore, student workload is not easily estimated by time and calculation of student workload may require plenty of factors which may be hard to find and measure.
+It may be difficult to measure the student workload using a single number. Studies show that currently student workload is simply measured as number of studying hours per week (Kember, 2004), but some researchers have indicated that student workload is hard to estimate because student workload may not only related to working time per week, but also be influenced by other factors like teaching method for each course and personal capability of each student (Ruiz-Gallardo, Castaño, Gómez- Alday \& Valdés, 2009). Meanwhile, student workload can be classified into two parts where one is objective workload which is measured by time, and the other is subjective workload which can be defined as the effect of factors related to student, such as effort and confusion (Kyndt, Berghmans, Dochy \& Bulckens, 2014). Therefore, student workload is not easily estimated by time and calculation of student workload may require plenty of factors which are hard to find and measure.
 
-\subsection{No such tool in NUS for undergraduate}
-Since student workload is important for student in education aspect, some universities have developed workload tools either for their students or for teaching staff to manage student workload or course workload. Nonetheless, there is still no such tool for NUS undergraduates to maintain their study workload. Thus, there is a need of student workload tool for NUS undergraduates which may help them manage their workload in a reasonable and easy-understanding manner.
+\subsection{No workload tool in NUS for undergraduate}
+Since student workload is important for students in education aspect, some universities have developed workload tools either for their students or for teaching staff to manage student workload or course syllabus. Nonetheless, there is still no such a tool for NUS undergraduates to maintain their workload. Thus, there is a need of student workload tool for NUS undergraduates which may help them manage their workload in a reasonable and easy-understanding manner.
 
 \subsection{Machine learning in predicting education workload}
-In addition, machine learning, as known as a subset of artificial intelligence, has been used  in many aspects such as education. For example, use machine learning to analyse and track student learning and provide recommendation for future learning, and build a grade system using machine learning to evaluate and assess student performance (Ark, 2015). However, current there is no such a tool using machine learning to manage student workload, and it could be helpful if we can use machine learning technology to manage student workload.
+In addition, machine learning, as known as a subset of artificial intelligence, has been used in many aspects including education. For example, use machine learning to analyse and track student learning and provide recommendation for future learning, and build a grade system using machine learning to evaluate and assess student performance (Ark, 2015). However, currently there is no such a tool using machine learning to manage student workload, and it could be helpful if we can use machine learning technology to manage student workload.
 
 \section{Motivation}
-Since currently there is no such tool for NUS undergraduates, it could be helpful if I design and develop a workload tool to assist undergraduate students in managing their workload. In addition, as an NUS Computer Science undergraduate, I would appreciate an opportunity to facilitate NUS undergraduate student learning process.
+Since currently there is no such a tool for NUS undergraduates, it could be helpful if I design and develop a workload tool to assist undergraduate students in managing their workload. In addition, as an NUS Computer Science undergraduate, I would appreciate an opportunity to facilitate NUS undergraduate student learning process.
 
 \section{Objective}
 \subsection{Help student understand their workload by prediction}
-Most importantly, NUSWorks mainly aims to develop a workload prediction web application to help NUS undergraduates understand and manage their workload by predicting their possible workload within one semester, and visualising the resulting workload in an interactive and user- friendly way.
+Most importantly, we aim to develop a workload prediction web application (named NUSWorks) to help NUS undergraduates understand and manage their workload by predicting their possible workload within one semester, and visualising the resulting workload in an interactive and user-friendly way.
 
-\subsection{More accurate measure of workload if more info provided}
-Besides, NUSWorks can accept varied amount of input information and use different models to predict. If users (i.e. NUS undergraduates) provide more information, the result of predicted workload will be more accurate.
+\subsection{More accurate measure of workload if more information provided}
+Besides, NUSWorks can accept varied amount of input information and use different models to predict. If users (i.e. NUS undergraduates) provide more information, the result of predicted workload might be more accurate.
 
 \subsection{Use machine learning to improve prediction accuracy}
-Meanwhile, machine learning is a powerful technology that it can modify the models based on more training data provided and it could be more accurate after training. Thus, NUSWorks aims to increase the accuracy by applying machine learning technology.
+Meanwhile, machine learning is a powerful technology that it can modify the models based on more training data provided and it could be more accurate after training. Thus, we aims to increase the prediction accuracy of NUSWorks by applying machine learning technology.
 
 \section{Scope}
 \subsection{Prediction of workload}
@@ -78,30 +78,29 @@ The prediction results of models should be presented in a way that user can unde
 Allow user to log in with his or her NUS Integrated Virtual Learning Environment (IVLE) account. Also, they can choose to use the workload tool without logging in.
 
 \subsection{Model refinement}
-Integrate machine learning methods so that the prediction models might become more accurate if more workload data can be collected and analysed to improve the model.
+Integrate with machine learning algorithm so that the prediction models might become more accurate if more workload data can be collected and analysed to improve the model.
 
 \subsection{Model variety}
-Allow user to choose either enter partial information or full information, and different models will be applied based on the input.
+Allow user to choose either enter partial information or full information, and different models will be applied based on different input provided.
 
 \chapter{Literature Review}
-% \label{ch:related}
 \section{Workload Understanding}
 \subsection{General definition of workload}
-Generally, workload has become one of the most significant factor that will affect the quality of teaching and learning (Giles, 2007; Kyndt, Dochy, Struyven \& Cascallar, 2011a). Moreover, based on studies on workload, researchers prefer to have two different categories of workload where one is objective workload, and the other is subjective workload, also known as perceived workload (Kyndt et al., 2014).
+Generally, workload has become one of the most significant factor that will affect the quality of teaching and learning (Kyndt, Dochy, Struyven \& Cascallar, 2011a). Moreover, based on studies on workload, researchers prefer to have two different categories of workload where one is objective workload, and the other is subjective workload, also known as perceived workload (Kyndt et al., 2014).
 
 \subsection{Objective workload}
 Usually, objective workload refers to the number of study hours that students spend (Kyndt et al., 2014). Although sometimes objective workload is one efficient way to represent the student workload and it is easy to measure, it is not enough. For example, two modules may have the same number of working hours per week, but students may think one has heavier workload than the other. Thus, it is usually insufficient that people only use objective workload to measure the whole student workload.
 
 \subsection{Subjective workload}
-Subjective workload is introduced to supplement objective workload. It consists of requirements for students and the consequences resulted from these requirements (Kyndt et al., 2014). However, due to the subjective nature of this concept, it is difficult to be measured accurately. For example, learning environment can be considered as one factor influencing subjective workload, but it is hard to measure it since it cannot be represented by a number.
+Subjective workload is introduced to supplement objective workload. It consists of requirements for students and the consequences resulted from these requirements (Kyndt et al., 2014). However, due to the subjective nature of this concept, it is difficult to be measured accurately. For example, learning environment can be considered as one factor that influences subjective workload, but it is hard to measure it because it cannot be simply represented by a single number.
 
 \section{Workload Assessment}
 \subsection{General approaches}
-Different approaches have been used to assess student workload by other researchers. Some researchers use open questions to collect student feedback for workload through survey (Kingsland, 1996; Lizzio, Wilson, \& Simons, 2002; Reisslein, Tylavsky, Matar, Seeling, \& Reisslein., 2007; Solomon \& Finch, 1998), but students may be influenced by their perceived difficulty or relationship between teachers and students (Ruiz-Gallardo et al., 2009).
+Different approaches have been used to assess student workload by other researchers. Some researchers use open questions to collect student feedback for workload through survey (Kingsland, 1996; Lizzio, Wilson, \& Simons, 2002; Reisslein, Tylavsky, Matar, Seeling, \& Reisslein., 2007; Solomon \& Finch, 1998), but students may be influenced by their perceived difficulty or relationship between teachers and students so they may not give the true feedback (Ruiz-Gallardo et al., 2009).
 
-Besides, students are usually asked to fill some evaluation form at the end of semester, and there may be some questions asking the amount of time student has spent per week (Greenwald \& Gillmore, 1997; Lawless, 2000; Zuriff, 2003). However, the problem is that it may be hard for student to recall weekly working time (Chambers, 1992). Meanwhile, students may also be affected by subjective factors of courses (Garg, Vijayshre, \& Panda, 1992).
+Besides, students are usually asked to fill some evaluation form at the end of semester, and there may be some questions asking the amount of time student has spent per week (Greenwald \& Gillmore, 1997; Lawless, 2000; Zuriff, 2003). However, the problem is that it may be hard for student to recall weekly working time (Chambers, 1992). Meanwhile, students may also be affected by subjective factors of courses (Garg \& Panda, 2010).
 
-Lastly, based on the estimation of time students spend on different assessments, one approach is to calculate the time and teacher can adjust the syllabus before course starts (Chambers, 1992; Chambers, 1994). On the one hand, the advantages of this method is that it does not require student actions, and it is helpful for teachers to plan their courses appropriately before starting. On the other hand, the estimated result may not be accurate.
+Lastly, based on the estimation of time students spend on different assessments, one approach is to calculate the time and teacher can adjust the syllabus before course starts (Chambers, 1992; Lockwood, 1994). On the one hand, the advantages of this method is that it does not require student actions, and it is helpful for teachers to plan their courses appropriately before starting. On the other hand, the estimated result may not be accurate enough.
 
 \subsection{Existing workload model}
 A student workload model proposed by Bowyer (2012) has been reviewed. The model is created after finding all possible factors that may influence student workload, and making those factors quantified. In his paper, he summarises that there are 4 different categories of factors which are difficulty, time, ability, and effort. He tries to quantifying the factors based on a set of experiments. Table \ref{factor-table} shows how the factors are quantified.
@@ -142,7 +141,7 @@ For reading assignment, student can enter factors including pages per week, page
 \end{figure}
 
 \subsection{An existing workload tool from Massey University}
-This tool, in fact, is for students who study remotely instead of staying at school. Firstly, student will choose the number of papers he or she would like to take for coming semester. Then student will enters how many hours he or she plans to spend on several categories of activities per week, such as sleeping, working and exercising. After those two steps, the tool will calculate the total number of hours the student will spend. Figure {\ref{massey-1}} is a screenshot of this tool and Figure {\ref{massey-2}} shows the calculated result of workload.
+This tool, in fact, is for students who study remotely instead of staying at school. Firstly, student will choose the number of papers he or she would like to take for coming semester. Then student will enters how many hours he or she plans to spend on several categories of activities per week, such as sleeping, working and exercising. After those two steps, the tool will calculate the total number of hours the student will spend. Figure {\ref{massey-1}} is a screenshot of this tool and Figure {\ref{massey-2}} shows the calculated result and feedback.
 
 \begin{figure}
 \frame{\includegraphics[width=\textwidth]{massey-1}}
@@ -187,9 +186,9 @@ The Figure {\ref{flow}} shows how the flow of NUSWorks is from user’s perspect
 
 \begin{itemize}
   \item Step 1: Users will login via IVLE, and NUSWorks will get the detailed information of the modules that the users have taken through IVLE API after authentication.
-  \item Step 2: If users may want to add some modules manually, they can add the module code through the NUSWorks Client and it will fetch the module details through NUSMods API using the module code.
+  \item Step 2: If users want to add some modules manually, they can add the module code through the NUSWorks Client and it will fetch the module details through NUSMods API using the module code.
 	\item Step 3: Users can choose to add some assessment components of some modules (e.g. add 1 assignment and its details to module CS3219).
-	\item Step 4: NUSWorks Client will get the corresponding models from NUSWorks Server and show the predicted results to users (i.e. weekly working time and difficulty) using charts or tables based the information and the models it has.
+	\item Step 4: NUSWorks Client will get the corresponding models from NUSWorks Server and show the prediction results to users (i.e. weekly working time and difficulty) using charts or tables based the information and the models it has.
 \end{itemize}
 
 \subsection{Technology stack}
@@ -215,20 +214,20 @@ ReactJS, React-Redux, Material-UI, Sass, Webpack, Yarn & Flask, MariaDB, scikit-
 
 \section{Model Design}
 \subsection{Overview}
-For the modelling, we use two indicators to represent student workload which are weekly working time and difficulty. For weekly working time, we build models for each type of assessment for each module. For difficulty, we also build the models for each module.
+For the modelling, we use two indicators to represent student workload which are weekly working time and difficulty. For weekly working time, we build models for each type of assessment component for each module. For difficulty, we also build the models for each module.
 
 \subsection{Training system}
 \subsubsection{Linear regression algorithm}
 For this project, we develop with Linear Regression Algorithm which is one of the simple Machine Learning Algorithms.
 
-For weekly working time, we have separate formula (i.e. Linear Regression Model) for each type of assessment because they should be measured in different ways. For each type of assessment, we use its corresponding training data (i.e. real data from users or volunteers) to train its Linear Regression Model and then use its coefficients and intercept to predict the workload of that assessment for users. For module difficulty, there will be models for each module. The specific attributes of each model will be discussed in 3.2.3 in detail. In addition, for each model (e.g. module difficulty model or assessment model), there will be three levels of complexity: (i) default; (ii) simple; (iii) complex. And the details of each kind of models will be illustrated in 3.2.4 (weekly working time) and 3.2.5 (module difficulty).
+For weekly working time, we have separate formula (i.e. Linear Regression Model) for each type of assessment component because they should be measured in different ways. For each type of assessment component, we use its corresponding training data (i.e. real data from users or volunteers) to train its Linear Regression Model and then use its coefficients and intercept to predict the workload of that assessment for users. For module difficulty, there will be models for each module. The specific attributes of each model will be discussed in section 3.2.3 in detail. In addition, for each model (e.g. module difficulty model or assessment model), there will be three levels of complexity: (i) default; (ii) simple; (iii) complex. And the details of each kind will be illustrated in section 3.2.4 (weekly working time) and section 3.2.5 (module difficulty).
 
 For Linear Regression Model, given a random assessment (Y, X1, X2, X3, ...) that Y is the workload of this assessment, and Xi is its related factors. We assume that there might be some linear relationship between Y and Xi, i.e. Y=a1*X1 + a2*X2 + a3*X3 + ... + b. For all training data of (Y, X1, X2, X3, ...), we will find a linear model that fits all training data best among all linear models. To find the most adequate linear model, we could use Least Square Estimation or other estimation techniques. In this project, we use scikit-learn, a Python-based machine learning library, to help us build Ordinary Least Square Linear Regression Models for each type of assessment component or module difficulty of each module.
 
 \subsubsection{Feedback system}
-In this project, we allow users to send feedback to the training server containing their actual workload and difficulty (this could be subjective) results if they feel the predicted results are not accurate enough. It is important to build the feedback system because we could know whether the prediction is accurate through the feedback and modify the program or algorithm in time if there are some issues. Also, we could get more real data to train our models. then use the updated model to do prediction after training, and then get feedback again, which forms a feedback cycle that will continuously improve models to make a better prediction.
+In this project, we allow users to send feedback to the training server containing their actual workload and difficulty (this could be subjective) results if they feel the predicted results are not accurate. It is important to build the feedback system because we could know whether the prediction is accurate through the feedback and modify the program or algorithm in time if needed. Also, we could get more real data to train our models, then use the updated model to do prediction after training, and then get feedback again, which forms a feedback cycle that will continuously improve models to make a better prediction.
 
-The main flow of the cycle is shown in the Figure {\ref{training-process}} below. First of all, user can send feedback to the NUSWorks Server if predicted results are inaccurate. Then NUSWorks Server will update the corresponding model and compute the new coefficients and intercept of that model. Next NUSWorks Client will use the new generated model to predict and user still can check and send feedback if necessary.
+The main flow of the cycle is shown in the Figure {\ref{training-process}}. First of all, user can send feedback to the NUSWorks Server if predicted results are inaccurate. Then NUSWorks Server will update the corresponding model and compute the new coefficients and intercept of that model. Next NUSWorks Client will use the new generated model to predict and user still can check and send feedback if necessary.
 
 \begin{figure}
 \frame{\includegraphics[width=\textwidth]{training-process}}
@@ -237,9 +236,9 @@ The main flow of the cycle is shown in the Figure {\ref{training-process}} below
 \end{figure}
 
 \subsubsection{Training data set}
-For the training data set of NUSWorks, we could build our own data set by collecting real data from users or volunteers. Also, we can use real data from other apps or platforms to make a larger dataset if possible. However, to integrate others’ dataset, we need to normalise those data before we use it for training.
+For the training data set of NUSWorks, we could build our own data set by collecting real data from users or volunteers. Also, we can use real data from other applications or platforms to make a larger dataset if possible. However, to integrate with others’ dataset, we need to normalise those data before we use it for training.
 
-In addition, we will set a threshold of 20 instances of real data for each model. It means if the size of data set for that model is less than 20 (i.e. less than 20 pieces of real data), the NUSWorks server will not train that model during training process. It is because the predicted results may not be accurate enough if there are too few data for training. Meanwhile, we will cut off the top 5\% and the bottom 5\% data (all the data of each model are sorted by the result field of each piece of real data) to reduce the influence of invalid data.
+In addition, we will set a threshold of 20 pieces of real data for each model. It means if the size of data set for that model is less than 20 (i.e. less than 20 pieces of real data), the NUSWorks server will not train that model during training process. It is because the predicted results may not be accurate enough if there are too few data for training. Meanwhile, we will cut off the top 5\% and the bottom 5\% data (all the data of each model are sorted by the result field of each piece of real data) to reduce the influence of invalid data.
 
 \subsection{Attributes for models}
 \subsubsection{Weekly working time specific attributes}
@@ -252,9 +251,9 @@ In addition, we will set a threshold of 20 instances of real data for each model
 		\rowcolor[HTML]{C0C0C0}
 	  \textbf{Attribute} & \textbf{Definition} & \textbf{Justification} \\
 	\hline
-	Released week & Starting week of the assignment & Because the app will predict the weekly workload, it can do more precise prediction if exact date is provided \\
+	Released week & Starting week of the assignment & Because the app will predict the weekly working time, it can do more precise prediction if exact date is provided \\
 	\hline
-	Dued week & Ending week of the assignment & Because the app will predict the weekly workload, it can do more precise prediction if exact date is provided \\
+	Dued week & Ending week of the assignment & Because the app will predict the weekly working time, it can do more precise prediction if exact date is provided \\
 	\hline
 	Percentage & The percentage of the assignment in the module & Higher percentage can mean more work to be done, which means higher workload \\
 	\hline
@@ -275,9 +274,9 @@ In addition, we will set a threshold of 20 instances of real data for each model
 		\rowcolor[HTML]{C0C0C0}
 	  \textbf{Attribute} & \textbf{Definition} & \textbf{Justification} \\
 	\hline
-	Released week & Starting week of the presentation & Because the app will predict the weekly workload, it can do more precise prediction if exact date is provided \\
+	Released week & Starting week of the presentation & Because the app will predict the weekly working time, it can do more precise prediction if exact date is provided \\
 	\hline
-	Dued week & Ending week of the presentation & Because the app will predict the weekly workload, it can do more precise prediction if exact date is provided \\
+	Dued week & Ending week of the presentation & Because the app will predict the weekly working time, it can do more precise prediction if exact date is provided \\
 	\hline
 	Percentage & The percentage of the presentation in the module & Higher percentage can mean more work to be done, which means higher workload \\
 	\hline
@@ -300,9 +299,9 @@ In addition, we will set a threshold of 20 instances of real data for each model
 		\rowcolor[HTML]{C0C0C0}
 	  \textbf{Attribute} & \textbf{Definition} & \textbf{Justification} \\
 	\hline
-	Released week & Starting week of the project & Because the app will predict the weekly workload, it can do more precise prediction if exact date is provided \\
+	Released week & Starting week of the project & Because the app will predict the weekly working time, it can do more precise prediction if exact date is provided \\
 	\hline
-	Dued week & Ending week of the project & Because the app will predict the weekly workload, it can do more precise prediction if exact date is provided \\
+	Dued week & Ending week of the project & Because the app will predict the weekly working time, it can do more precise prediction if exact date is provided \\
 	\hline
 	Percentage & The percentage of the project in the module & Higher percentage can mean more work to be done, which means higher workload \\
 	\hline
@@ -492,23 +491,23 @@ The “\textit{LSM}” refers to linear regression model, and the attributes ins
 \subsection{Predict weekly working time based on information provided}
 NUSWorks can accept various amount of information from student to generate predicted weekly working time. For example, a student can only add modules in NUSWorks without any assessment components and a prediction result will also be generated based on the modules themselves. If more information is provided, such as some assessment components, the result will be more accurate because it will use the corresponding model to calculate the weekly working time for that assessment component and add it to the final total weekly working time.
 
-For the models used to predict weekly working time, if there are not more than 20 instances of real training data for that type of assessment component of that module, then we will use default model of that assessment component of that module. Otherwise, user can choose either use simple models or complex models
+For the models used to predict weekly working time, if there are not more than 20 pieces of real training data for that type of assessment component of that module, then we will use default model of that assessment component of that module. Otherwise, user can choose either use simple models or complex models
 
 \subsection{Predict module difficulty based on information provided}
 NUSWorks can accept various amount of information from student to generate predicted module difficulty. For example, a student can add modules in NUSWorks and a predicted module difficulty for each module will be generated based on the modules themselves. If more information is provided, such as student CAP, experienced MC and experienced semesters, the result will be more accurate because it will use the corresponding model to compute the predicted difficulty for that module.
 
-For the model used to predict module difficulty, if there are not more than 20 instances of real training data for that module, then we will use default model of that module to predict module difficulty. Otherwise, user can choose either use simple model or complex model to predict module difficulty.
+For the model used to predict module difficulty, if there are not more than 20 pieces of real training data for that module, then we will use default model of that module to predict module difficulty. Otherwise, user can choose either use simple model or complex model to predict module difficulty.
 
 \subsection{Different ways to visualise prediction results}
 Users can choose preferred ways to show the predicted result. For weekly working time, user can choose to show the predicted result as a line chart, or a bar chart, or a pie chart, or just a table.
 
 \subsection{Feedback system of prediction}
-Users can send feedback to NUSWorks training server if the prediction results are not accurate and the feedback will be stored as real data into the database. Then the feedback data will be used in the next training round for the corresponding model for refinement.
+Users can send feedback to NUSWorks training server if the prediction results are not accurate and the feedback will be stored as real data into the database. Then the feedback data may be used in the next training round for the corresponding model for refinement.
 
 \section{Requirements}
 \subsection{Functional requirements}
 \begin{itemize}
-	\item A student should be able to login via IVLE and all the needed information should be fetched automatically.
+	\item A student should be able to login via IVLE and all the needed information from IVLE should be fetched automatically.
 	\item A student should be able to manually add, edit and delete module information besides fetching information from IVLE.
 	\item A student should be able to add, edit, delete assignment, project, presentation, reading, test, exam details of each added module.
 	\item A student should be able to view the charts and tables that contain the prediction results.
@@ -532,7 +531,7 @@ Users can send feedback to NUSWorks training server if the prediction results ar
 \section{Design Decisions}
 \subsection{Architecture}
 \subsubsection{NUSWorks Client}
-Because I use React-Redux as the framework for the front end of NUSWorks, so the architecture of the front end flows the Redux design, and Figure {\ref{redux}} shows the flow of Redux while using React together.
+Because I use React-Redux as the framework for NUSWorks Client, so the architecture of the flows of NUSWorks Client should follow the Redux design, and Figure {\ref{redux}} shows the flow of Redux while using React together.
 
 \begin{figure}
 \frame{\includegraphics[width=\textwidth]{redux}}
@@ -540,7 +539,7 @@ Because I use React-Redux as the framework for the front end of NUSWorks, so the
 \label{redux}
 \end{figure}
 
-There are four main kinds of components including Action Creators, Store, Reducers and React Components.
+There are four main kinds of components in React-Redux including Action Creators, Store, Reducers and React Components.
 
 \begin{itemize}
 	\item React Component: React Component is more like customised HTML tags, and it mainly deals with for the view part of application.
@@ -549,12 +548,12 @@ There are four main kinds of components including Action Creators, Store, Reduce
 	\item Reducer: Reducer is to create new state according to the old state and action.
 \end{itemize}
 
-Every time there is a user request that may lead to changing of views, React Components will call corresponding Action Creator to request the action object, and then use the dispatch function, provided by Store, to emit the action to Store. Then Store will call the corresponding Reducer to return back the new state by using the old state and action object. Finally, after Store updates the state and re-render the corresponding React Components using updated state.
+Every time there is a user request that could lead to changing of views, React Component will call its corresponding Action Creator to request the action object, and then use the dispatch function, provided by Store, to emit the action to Store. Then Store will call the corresponding Reducer to return back the new state by using the old state and action object. Finally, after Store updates the state and re-render the corresponding React Components using updated state.
 
-Redux is good at maintaining the status of components. Also, there is only one data store, which will ensure the data consistency. In addition, the data in the store can be easily passed to any components via its connect method. Meanwhile, because there are a lot of situations in this project that components need to sharing data and status, and one component may change the states of other components, it is simple and convenient to achieve them using Redux rather than other architectures.
+React-Redux is good at maintaining the status of components. Also, there is only one data store, which will ensure the data consistency. In addition, the data in the store can be easily passed to any components via its connect method. Meanwhile, because there are lots of situations in this project that components need to sharing data and status, and one component may change the states of other components, it is simple and convenient to achieve them using React-Redux rather than other architectures.
 
 \subsubsection{NUSWorks Server}
-For the backend of NUSWorks, I use the Flask to set up the NUSWorks server. The NUSWorks server currently will provide API services for NUSWorks app. The API services including getting coefficients and intercept of some linear regression model of some assessment component or module difficulty of some module and posting real data (e.g. user feedback) for training. The main architecture of NUSWorks server is shown in the Figure {\ref{nusworks-server}}.
+For NUSWorks Server, I use the Flask to set up the NUSWorks server. The NUSWorks server currently will provide API services for NUSWorks Client. The API services including getting coefficients and intercept of some linear regression model of some assessment component or module difficulty of some module and posting real data (e.g. user feedback) for training. The main architecture of NUSWorks Server is shown in the Figure {\ref{nusworks-server}}.
 
 \begin{figure}
 \frame{\includegraphics[width=\textwidth]{nusworks-server}}
@@ -562,11 +561,11 @@ For the backend of NUSWorks, I use the Flask to set up the NUSWorks server. The 
 \label{nusworks-server}
 \end{figure}
 
-Initially, once NUSWorks client makes a request, the router will parse the request URL and determine which resource is requested by the client. If the request is to get the coefficients and intercept of some model, then the corresponding model (e.g. Project Model) will fetch its coefficients and intercept from NUSWorks Database through SQLAlchemy; if the request is to add training data to database, then its corresponding data model (e.g. Project Data Model) will send the data to NUSWorks Database through SQLAlchemy.
+Initially, once NUSWorks Client makes a request, the router will parse the request URL and determine which resource is requested by the client. If the request is to get the coefficients and intercept of some model, then the corresponding model (e.g. Project Model) will fetch its coefficients and intercept from NUSWorks Database through SQLAlchemy; if the request is to add training data to database, then its corresponding data model (e.g. Project Data Model) will send the data to NUSWorks Database through SQLAlchemy.
 
 Flask is a lightweight framework compared to other Python frameworks. Since the NUSWorks Server may only deal with the requests from the NUSWorks Client and we do not need other functionalities, Flask is enough and it is easy to set it up. Besides, Object Relational Mapping is applied (i.e. Flask-SQLAlchemy and Flask-Marshmallow) to deal with the communications between NUSWorks Server and NUSWorks Database.
 
-\subsection{UI/UX Design}
+\subsection{UI/UX design}
 Since we use Material-UI in this project, all the UI design follows material design.
 \begin{itemize}
 	\item Initially, Figure {\ref{screen-1}} the user interface while first time opening NUSWorks.
@@ -595,7 +594,7 @@ Since we use Material-UI in this project, all the UI design follows material des
 \end{itemize}
 
 \subsection{Testing}
-Since testing is not the first priority for this project, and there is limited time, we do not fully test both NUSWorks Client and NUSWorks Server. However, in the future, we must fully test NUSWorks before deploy it online.
+Since testing is not the first priority for this project, and the current goal is not to build a large scalable web application, we do not fully test both NUSWorks Client and NUSWorks Server. However, in the future, we must fully test NUSWorks before deploying it online.
 
 Firstly, we use React built-in type checking functionality to handle React components type checking. It allows us to check if the type of value is the same as the specified type, and errors will be thrown if they are not matched.
 
@@ -603,26 +602,27 @@ Besides, we use Mocha and Enzyme to set up our testing framework and write some 
 
 \chapter{Discussion and Recommendation}
 \section{Machine Learning Model}
-In this project, we assume that the relationship between the workload (i.e. weekly working time and module difficulty) and the attributes used in this project is linear, and use linear regression model to predict weekly working time and difficulty. The reason why we use linear regression model is that it is a simple machine learning model that can be easily implemented, and it is the first time to applying machine learning algorithm to education workload prediction.
+In this project, we assume that the relationship between the workload (i.e. weekly working time and module difficulty) and the attributes used in this project is linear, and use linear regression model to predict weekly working time and module difficulty. The reason why we use linear regression model is that it is a simple machine learning model that can be easily implemented, and it is out first time to learn and apply machine learning algorithm to education workload prediction.
 
-As mentioned in the introduction part, it is hard to define and measure workload, but also knowing workload is quite important for students. Although we cannot come up with a direct formula to calculate workload manually, we could analyse the real data that might be related to workload to build a model for workload, which is the main idea of machine learning.
+As mentioned in section 1.1, it is hard to define and measure workload, but also knowing workload is quite important for students. Although we cannot come up with a direct formula to calculate workload manually, we could analyse the real data that might be related to workload and build a model or models for workload, which machine learning could do.
 
-However, it may not be linear between the workload, or the weekly working time and module difficulty in this project, and the workload-related attributes, and even more complicated than linear relationship. Thus, we need to do more research on the relationship between the workload and the workload-related attributes, and we have to use another more appropriate model, like artificial neural networks model, rather than linear regression model if the relationship is non linear.
+However, it may not be linear relationship between the workload, or the weekly working time and module difficulty in this project, and the workload-related attributes, and even more complicated than linear relationship. Thus, we need to do more research on the relationship between the workload and the workload-related attributes, and we have to use another more appropriate model, like artificial neural networks model, rather than linear regression model if the relationship is non linear.
 
 \section{Training Data}
 In this project, since we use machine learning algorithm (i.e. linear regression algorithm), we need to collect real data to train our linear regression models. Currently we only have two channels to collect data. One is to collect data from friends or volunteers, the other one is to collect data from other applications or platforms. However, there are still some problems. First of all, the amount of data collected from friends would be limited, and also some data collected from other applications and platforms may miss some attributes or cannot be normalized to the format we need. One way to collect more valid data could be introducing NUSWorks to some lecturers and letting them ask their students to use NUSWorks.
 
 \section{Attributes of Models}
-The attributes involved in this project has been introduced in 3.2.3. However, there are still some uninvolved attributes that might be related to workload. For example, teaching approaches, learning environment, and student effort. The reason why we do not cover those attributes is that it is difficulty to define and quantify them. We cannot just use a numeric value to represent teaching approach or learning environment, and more research should be conducted on them before we include those attributes to the workload models. In addition, we should also include more attributes that are workload-related and easily measured to make the workload models more powerful and accurate.
+The attributes involved in this project has been introduced in section 3.2.3. However, there are still some uninvolved attributes that might be related to workload. For example, teaching approaches, learning environment, and student effort. The reason why we do not cover those attributes is that it is difficulty to define and quantify them. We cannot just use a numeric value to represent teaching approach or learning environment, and more research should be conducted on them before we include those attributes to the workload models. In addition, we should also include more attributes that are workload-related and easily measured to make the workload models more powerful and accurate.
 
 \section{Indicators of Workload}
-Currently there are two indicators of workload in this project: (i) weekly working time, and (ii) module difficulty. However, there might still exist more indicators of workload or more appropriate indicators that reveal the student workload more precisely as a replacement of the weekly working time and/or module difficulty. This is related to how we want to define and represent student workload, and how the student workload should be measured. Thus, this could be one of the future extension of this project.
+Currently there are two indicators of workload in this project: (i) weekly working time, and (ii) module difficulty. However, more indicators of workload or more appropriate indicators that reveal the student workload more precisely as a replacement of the weekly working time and/or module difficulty might still exist. This is related to how we want to define and represent student workload, and how the student workload should be measured. Thus, this could be one of the future extension of this project.
 
 \chapter{Conclusion}
-To sum up, in this project, we have studied about what student workload is and how we understand and measure student workload. Meanwhile, to address this problem, we have built several models to represent student workload and used those models to build a tool, NUSWorks, to help NUS undergraduates understand their workload by predicting their weekly working time and module difficulty using machine learning algorithm. However, this project is just a first try to model the student workload and use machine learning to calculate workload based those models, and NUSWorks still has some limitations such as not enough indicators of workload and maybe inappropriate model used.
+To sum up, in this project, we have studied about what student workload is and how we understand and measure student workload. Meanwhile, to address this problem, we have built several models to represent student workload and used those models to build a workload tool, NUSWorks, to help NUS undergraduates understand their workload by predicting their weekly working time and module difficulty using machine learning algorithm. However, this project is just a first try to model the student workload and use machine learning algorithm to calculate workload based on those models, and NUSWorks still has some limitations such as not enough indicators of workload and maybe inappropriate model used.
 
 Meanwhile, this project is an enriching and helpful experience for me because it enhances my web development skills and research skills. Also, it gives me a chance to learn and apply machine learning technology. In addition, I have got deep insight into education system and student workload system during this project. All of these may benefit me in my future career.
 
+\nocite{*}
 \bibliographystyle{socreport}
 \bibliography{socreport}
 

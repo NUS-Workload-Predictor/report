@@ -3,14 +3,14 @@
 \contentsline {chapter}{Acknowledgement}{iii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Background}{1}
-\contentsline {subsection}{\numberline {1.1.1}Workload is important for both teaching staff and students}{1}
+\contentsline {subsection}{\numberline {1.1.1}Workload is important for both students and education institutes}{1}
 \contentsline {subsection}{\numberline {1.1.2}Workload is hard to measure}{1}
-\contentsline {subsection}{\numberline {1.1.3}No such tool in NUS for undergraduate}{2}
+\contentsline {subsection}{\numberline {1.1.3}No workload tool in NUS for undergraduate}{2}
 \contentsline {subsection}{\numberline {1.1.4}Machine learning in predicting education workload}{2}
 \contentsline {section}{\numberline {1.2}Motivation}{3}
 \contentsline {section}{\numberline {1.3}Objective}{3}
 \contentsline {subsection}{\numberline {1.3.1}Help student understand their workload by prediction}{3}
-\contentsline {subsection}{\numberline {1.3.2}More accurate measure of workload if more info provided}{3}
+\contentsline {subsection}{\numberline {1.3.2}More accurate measure of workload if more information provided}{3}
 \contentsline {subsection}{\numberline {1.3.3}Use machine learning to improve prediction accuracy}{3}
 \contentsline {section}{\numberline {1.4}Scope}{4}
 \contentsline {subsection}{\numberline {1.4.1}Prediction of workload}{4}
@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {2.3}Existing Workload Tool}{8}
 \contentsline {subsection}{\numberline {2.3.1}An existing workload tool from Rice University}{8}
 \contentsline {subsection}{\numberline {2.3.2}An existing workload tool from Massey University}{8}
-\contentsline {subsection}{\numberline {2.3.3}An existing workload tool from The Open University}{10}
+\contentsline {subsection}{\numberline {2.3.3}An existing workload tool from The Open University}{9}
 \contentsline {chapter}{\numberline {3}NUSWorks Design}{12}
 \contentsline {section}{\numberline {3.1}Introduction}{12}
 \contentsline {subsection}{\numberline {3.1.1}Overview}{12}
@@ -65,7 +65,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Architecture}{29}
 \contentsline {subsubsection}{NUSWorks Client}{29}
 \contentsline {subsubsection}{NUSWorks Server}{30}
-\contentsline {subsection}{\numberline {3.5.2}UI/UX Design}{31}
+\contentsline {subsection}{\numberline {3.5.2}UI/UX design}{31}
 \contentsline {subsection}{\numberline {3.5.3}Testing}{34}
 \contentsline {chapter}{\numberline {4}Discussion and Recommendation}{36}
 \contentsline {section}{\numberline {4.1}Machine Learning Model}{36}

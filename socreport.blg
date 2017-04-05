@@ -2,47 +2,90 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: socreport.aux
 The style file: socreport.bst
-I found no \citation commands---while reading file socreport.aux
 Database file #1: socreport.bib
-You've used 0 entries,
+Repeated entry---line 144 of file socreport.bib
+ : @article{garg2010preliminary
+ :                             ,
+I'm skipping whatever remains of this entry
+"in press" is a string literal, `year' is a missing field
+---they aren't the same literal types for entry ricecourse
+while executing---line 1331 of file socreport.bst
+"in preparation" is a string literal, `year' is a missing field
+---they aren't the same literal types for entry ricecourse
+while executing---line 1331 of file socreport.bst
+"submitted" is a string literal, `year' is a missing field
+---they aren't the same literal types for entry ricecourse
+while executing---line 1331 of file socreport.bst
+`month' is a missing field, not a string, for entry bowyer2012model
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry chambers1992work
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry garg2010preliminary
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry greenwald1997no
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry kember2004interpreting
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry kingsland1996time
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry kyndt2014time
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry kyndt2011perception
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry lawless2000using
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry lizzio2002university
+while executing---line 1367 of file socreport.bst
+Warning--empty address in lockwood1994materials
+Warning--empty address in reisslein2007active
+`month' is a missing field, not a string, for entry reisslein2007active
+while executing---line 1367 of file socreport.bst
+Warning--empty year in ricecourse
+`month' is a missing field, not a string, for entry ruiz2011assessing
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry solomon1998qualitative
+while executing---line 1367 of file socreport.bst
+`month' is a missing field, not a string, for entry zuriff2003method
+while executing---line 1367 of file socreport.bst
+You've used 19 entries,
             2653 wiz_defined-function locations,
-            563 strings with 4353 characters,
-and the built_in function-call counts, 17 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            685 strings with 7868 characters,
+and the built_in function-call counts, 8330 in all, are:
+= -- 843
+> -- 329
+< -- 14
++ -- 122
+- -- 112
+* -- 807
+:= -- 1420
+add.period$ -- 53
+call.type$ -- 19
+change.case$ -- 132
+chr.to.int$ -- 19
+cite$ -- 41
+duplicate$ -- 263
+empty$ -- 566
+format.name$ -- 137
+if$ -- 1614
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 16
+newline$ -- 94
+num.names$ -- 109
+pop$ -- 134
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 132
 quote$ -- 0
-skip$ -- 1
+skip$ -- 248
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 521
+swap$ -- 37
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 168
+warning$ -- 3
+while$ -- 80
 width$ -- 0
-write$ -- 2
-(There was 1 error message)
+write$ -- 294
+(There were 18 error messages)

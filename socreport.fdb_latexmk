@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex socreport"] 1491317575 "socreport.aux" "socreport.bbl" "socreport" 1491318207
+["bibtex socreport"] 1491362694 "socreport.aux" "socreport.bbl" "socreport" 1491367232
   "./socreport.bst" 1459704706 26791 e3cafb545f3d5f50a039935a08a8e822 ""
-  "socreport.aux" 1491318206 12948 48a668e66e85db8ad5a20f442ea1076b ""
+  "socreport.aux" 1491367206 15020 bea5b183f6fa20771fd006a56d01d083 ""
   "socreport.bcf" 0 -1 0 ""
-  "socreport.bib" 1491289367 1236 828c5f183dddf8d50152a3b3b4a1e542 ""
+  "socreport.bib" 1491324458 6009 68e9ec9e5cee79370f5c8d3b85f8c378 ""
   (generated)
   "socreport.blg"
   "socreport.bbl"
-["pdflatex"] 1491318202 "socreport.tex" "socreport.pdf" "socreport" 1491318207
+["pdflatex"] 1491367202 "socreport.tex" "socreport.pdf" "socreport" 1491367232
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -92,15 +92,15 @@
   "img/redux.png" 1490878313 13327 40f429724f9d030a5b7dd39114f7bf6d ""
   "img/rice-university.png" 1491292660 342063 2a3df2946ac2d3aa5e2fbf7e078df8cc ""
   "img/training-process.png" 1490882441 43505 e2f8b3d6c8f9f25f7ddcdf8361d6af83 ""
-  "socreport.aux" 1491318206 12948 48a668e66e85db8ad5a20f442ea1076b ""
-  "socreport.bbl" 1491317576 49 0eba253fc001332e731e8aba3f23127b "bibtex socreport"
+  "socreport.aux" 1491367206 15020 bea5b183f6fa20771fd006a56d01d083 ""
+  "socreport.bbl" 1491362695 5991 0e802fc81b56b07ca7dfba422f000e9c "bibtex socreport"
   "socreport.cls" 1459704706 32388 959960ad13915f41ca44aff900a31a54 ""
-  "socreport.tex" 1491318202 59507 8cfbb33f59502701824828bf4fd22338 ""
-  "socreport.toc" 1491318206 5476 d132d0d9d98e131fcb500d5d09ecda5d ""
+  "socreport.tex" 1491367232 59807 f292f06bc9d46fe73b64d8dc2ac647e3 ""
+  "socreport.toc" 1491367206 5492 1a7dbc9f46f6e8685c85794f2b7b62b9 ""
   (generated)
-  "socreport.toc"
   "socreport.pdf"
-  "socreport.log"
-  "socreport.lof"
   "socreport.aux"
+  "socreport.lof"
+  "socreport.toc"
+  "socreport.log"
   "socreport.lot"
